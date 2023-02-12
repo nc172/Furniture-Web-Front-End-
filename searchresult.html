@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/all.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="css/searchresult2.css" type="text/css">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/all.js"></script>
+  </head>
+  <body>
+    <!--header-->
+    <!--navbar-->
+    <div class="container-fluid maincolor sticky-top">
+      <div class="container maincolor py-1">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-6">
+            <h3 class="text-white text-center">M-Day Furniture</h3>
+          </div>
+          <!--small nav-->
+          <div class="col-lg-6 col-md-8 col-6 col-sm-6 d-none d-sm-none d-md-none d-lg-block d-xl-block navbar-expand-md">
+              <nav class=" justify-content-end" id="">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link text-white"><i class="fas fa-home"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-white dropdown-toggle" data-toggle="dropdown">PRODUCTS</a>
+                    <div class="dropdown-menu w-25" aria-labelledby="drop">
+                      <a href="#" class="dropdown-item">Bedroom</a>
+                      <a href="#" class="dropdown-item">Living room</a>
+                      <a href="#" class="dropdown-item">Kitchen</a>
+                      <a href="#" class="dropdown-item">Bathroom</a>
+                      <a href="#" class="dropdown-item">Accessories</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-white dropdown-toggle" data-toggle="dropdown">INFORMATION</a>
+                    <div class="dropdown-menu w-25" aria-labelledby="drop">
+                      <a href="#" class="dropdown-item">NEWS</a>
+                      <a href="#" class="dropdown-item">PROJECTS</a>
+                      <a href="#" class="dropdown-item">INSPIRATIONS</a>
+                      <a href="#" class="dropdown-item">ABOUT US</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-white">SPECIAL OFFERS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-white m-0 pr-0">FAQ</a>
+                  </li>
+                </ul>
+              </nav>
+          </div>
+
+          <!------->
+          <div class="col-lg-5 col-md-8 col-6 col-sm-6 d-block d-sm-block d-md-block d-lg-none d-xl-none navbar-expand-lg">
+            <div class="text-right">
+            <button class="navbar-toggler py-2 text-white justify-content-end" type="button" data-toggle="collapse" data-target="#small_nav">
+            <span class="fas fa-align-justify"></span>
+            </button>
+            </div>
+          </div>
+          <nav class="collapse justify-content-end navbar-collapse mr-4" id="small_nav">
+            <ul class="navbar-nav text-right">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link text-white"><i class="fas fa-home"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white dropdown-toggle" data-toggle="dropdown">PRODUCTS</a>
+                <div class="dropdown-menu w-25" aria-labelledby="drop">
+                  <a href="#" class="dropdown-item">Bedroom</a>
+                  <a href="#" class="dropdown-item">Living room</a>
+                  <a href="#" class="dropdown-item">Kitchen</a>
+                  <a href="#" class="dropdown-item">Bathroom</a>
+                  <a href="#" class="dropdown-item">Accessories</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white dropdown-toggle" data-toggle="dropdown">INFORMATION</a>
+                <div class="dropdown-menu w-25" aria-labelledby="drop">
+                  <a href="#" class="dropdown-item">NEWS</a>
+                  <a href="#" class="dropdown-item">PROJECTS</a>
+                  <a href="#" class="dropdown-item">INSPIRATIONS</a>
+                  <a href="#" class="dropdown-item">ABOUT US</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">SPECIAL OFFERS</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white m-0 pr-0">FAQ</a>
+              </li>
+            </ul>
+          </nav>
+          <!--end smallnav-->
+
+          <div class="col-lg-3 d-none d-sm-none d-md-none d-lg-block d-xl-block">
+
+            <input type="text" name="search" class="w-75 float mr-2 mt-1" placeholder=" search...">
+            <a href="#" class=" nav-link text-white"><i class="fas fa-search"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--end navbar-->
+    <!--search bar-->
+    <br class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
+    <div class="container d-block d-sm-block d-md-block d-lg-none d-xl-none ">
+      <nav class="wid">
+        <ul class="nav justify-content-center">
+            <li class="form-group w-50 wid">
+              <input type="search" name="search" placeholder=" Search..." class="search mt-2 border1">
+            </li>
+          <li>
+            <a href="#" class=" nav-link text-secondary"><i class="fas fa-search"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!--end search bar-->
+    <!--end header-->
+
+    <br>
+    <!--body-->
+      <!--carousel-->
+      <div class="container">
+        <div class="row">
+          <div class="carousel slide mx-auto carousel-showmanymoveone col-lg-10" id="slide_01" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+              <li data-target="#slide_01" data-slide-to="0" class="active"></li>
+              <li data-target="#slide_01" data-slide-to="1" class=""></li>
+              <li data-target="#slide_01" data-slide-to="2" class=""></li>
+              <li data-target="#slide_01" data-slide-to="3" class=""></li>
+              <li data-target="#slide_01" data-slide-to="4" class=""></li>
+            </ul>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="pics/searchresult3.jpg" class="w-100" alt="">
+              </div>
+
+              <div class="carousel-item">
+                <img src="pics/searchresult4.jpg" class="w-100" alt="">
+              </div>
+
+              <div class="carousel-item">
+                <img src="pics/searchresult5.jpg" class="w-100" alt="">
+              </div>
+
+              <div class="carousel-item">
+                <img src="pics/searchresult1.jpg" class="w-100" alt="">
+              </div>
+
+              <div class="carousel-item">
+                <img src="pics/searchresult6.jpg" class="w-100" alt="">
+              </div>
+            </div>
+
+            <a href="#slide_01" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#slide_01" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--endcarousel-->
+      <br>
+      <div class="container">
+        <div class="row">
+          <!--filter-->
+          <div class="col-lg-3 d-none d-sm-none d-md-none d-lg-block d-xl-block">
+            <h5 class="text-center bg-info text-white my-2 py-1">Material</h5>
+            <p >
+              <input type="checkbox" name="material" class="my-1 mx-2" value="">Wood <br>
+              <input type="checkbox" name="material" class="my-1 mx-2" value="">Marble Stone <br>
+              <input type="checkbox" name="material" class="my-1 mx-2" value="">Leather <br>
+              <input type="checkbox" name="material" class="my-1 mx-2" value="">Suede <br>
+              <input type="checkbox" name="material" class="my-1 mx-2" value="">Metal
+            </p>
+            <h5 class="text-center bg-info text-white my-2 py-1">Price Range</h5>
+            <p>
+              <input type="checkbox" name="price" class="my-1 mx-2" value="">Under $300 <br>
+              <input type="checkbox" name="price" class="my-1 mx-2" value="">$300 - $1000 <br>
+              <input type="checkbox" name="price" class="my-1 mx-2" value="">$1000 - $1500 <br>
+              <input type="checkbox" name="price" class="my-1 mx-2" value="">More than $1500 <br>
+            </p>
+            <div class="d-flex">
+              <p class="my-1">$</p><input type="number" class="w-25" name="" value="">
+              <p class="my-1 mx-2">to</p>
+              <p class="my-1">$</p><input type="number" class="w-25" name="" value="">
+              <button type="Search" class="btn btn-light mx-2 w-25" name="button"> Go</button>
+            </div>
+            <h5 class="text-center bg-info text-white my-3 py-1">Color</h5>
+            <div class="colorbox">
+              <a href="#"><i class="fas fa-square mx-2 sand"></i></a>
+              <a href="#"><i class="fas fa-square mx-2 blue"></i></a>
+              <a href="#"><i class="fas fa-square mx-2 red"></i></a>
+              <a href="#"><i class="fas fa-square mx-2 golden"></i></a>
+              <a href="#"><i class="fas fa-square mx-2 white"></i></a>
+              <a href="#"><i class="fas fa-square mx-2 black"></i></a>
+            </div>
+            <h5 class="text-center bg-info text-white my-2 py-1">Rate</h5>
+            <input type="checkbox" name="price" class="my-1 mx-2" value="">
+            <i class="fas fa-heart redheart"></i>
+            <i class="fas fa-heart redheart"></i>
+            <i class="fas fa-heart redheart"></i>
+            <i class="fas fa-heart redheart"></i>
+            <i class="fas fa-heart redheart"></i> <br>
+            <input type="checkbox" name="price" class="my-1 mx-2" value="">
+            <i class="fas fa-heart redheart"></i>
+            <i class="fas fa-heart redheart"></i>
+            <i class="fas fa-heart redheart"></i>
+            <i class="fas fa-heart redheart"></i> <br>
+            <input type="checkbox" name="price" class="my-1 mx-2" value="">
+            <i class="fas fa-heart redheart"></i>
+            <i class="fas fa-heart redheart"></i>
+            <i class="fas fa-heart redheart"></i> <br>
+            <input type="checkbox" name="price" class="my-1 mx-2" value="">
+            <i class="fas fa-heart redheart"></i>
+            <i class="fas fa-heart redheart"></i> <br>
+            <input type="checkbox" name="price" class="my-1 mx-2" value="">
+            <i class="fas fa-heart redheart"></i>
+            <h5 class="text-center bg-info text-white mt-3 mb-2 py-1">Availability</h5>
+            <input type="checkbox" name="price" class="my-1 mx-2" value="">In Stock <br>
+            <input type="checkbox" name="price" class="my-1 mx-2" value="">Out Of Stock <br>
+            <input type="checkbox" name="price" class="my-1 mx-2" value="">Order Require
+          </div>
+          <!--end filter-->
+
+          <!--filter sm-md-->
+          <div class="col-lg-3 d-block d-sm-block d-md-block d-lg-none d-xl-none">
+            <a class="" href="#filter1" class="nav-link" data-toggle="collapse"><h5 class="text-center bg-info text-white my-2 py-1">Material</h5></a>
+            <p id="filter1" class="collapse">
+              <input type="checkbox" name="material" class="my-1 mx-2" value="">Wood <br>
+              <input type="checkbox" name="material" class="my-1 mx-2" value="">Marble Stone <br>
+              <input type="checkbox" name="material" class="my-1 mx-2" value="">Leather <br>
+              <input type="checkbox" name="material" class="my-1 mx-2" value="">Suede <br>
+              <input type="checkbox" name="material" class="my-1 mx-2" value="">Metal
+            </p>
+            <a class="" href="#filter2" class="nav-link" data-toggle="collapse"><h5 class="text-center bg-info text-white my-2 py-1">Price Range</h5></a>
+            <div id="filter2" class="collapse">
+              <p>
+                <input type="checkbox" name="price" class="my-1 mx-2" value="">Under $300 <br>
+                <input type="checkbox" name="price" class="my-1 mx-2" value="">$300 - $1000 <br>
+                <input type="checkbox" name="price" class="my-1 mx-2" value="">$1000 - $1500 <br>
+                <input type="checkbox" name="price" class="my-1 mx-2" value="">More than $1500 <br>
+              </p>
+              <div class="d-flex">
+                <p class="my-1">$</p><input type="number" class="w-25" name="" value="">
+                <p class="my-1 mx-2">to</p>
+                <p class="my-1">$</p><input type="number" class="w-25" name="" value="">
+                <button type="Search" class="btn btn-light mx-2 w-25" name="button"> Go</button>
+              </div>
+            </div>
+            <a class="" href="#filter3" class="nav-link" data-toggle="collapse"><h5 class="text-center bg-info text-white my-3 py-1">Color</h5></a>
+            <div class="colorbox collapse" id="filter3">
+              <a href="#"><i class="fas fa-square mx-2 sand"></i></a>
+              <a href="#"><i class="fas fa-square mx-2 blue"></i></a>
+              <a href="#"><i class="fas fa-square mx-2 red"></i></a>
+              <a href="#"><i class="fas fa-square mx-2 golden"></i></a>
+              <a href="#"><i class="fas fa-square mx-2 white"></i></a>
+              <a href="#"><i class="fas fa-square mx-2 black"></i></a>
+            </div>
+            <a class="" href="#filter4" class="nav-link" data-toggle="collapse"><h5 class="text-center bg-info text-white my-2 py-1">Rate</h5></a>
+            <div class="collapse" id="filter4">
+              <input type="checkbox" name="price" class="my-1 mx-2" value="">
+              <i class="fas fa-heart redheart"></i>
+              <i class="fas fa-heart redheart"></i>
+              <i class="fas fa-heart redheart"></i>
+              <i class="fas fa-heart redheart"></i>
+              <i class="fas fa-heart redheart"></i> <br>
+              <input type="checkbox" name="price" class="my-1 mx-2" value="">
+              <i class="fas fa-heart redheart"></i>
+              <i class="fas fa-heart redheart"></i>
+              <i class="fas fa-heart redheart"></i>
+              <i class="fas fa-heart redheart"></i> <br>
+              <input type="checkbox" name="price" class="my-1 mx-2" value="">
+              <i class="fas fa-heart redheart"></i>
+              <i class="fas fa-heart redheart"></i>
+              <i class="fas fa-heart redheart"></i> <br>
+              <input type="checkbox" name="price" class="my-1 mx-2" value="">
+              <i class="fas fa-heart redheart"></i>
+              <i class="fas fa-heart redheart"></i> <br>
+              <input type="checkbox" name="price" class="my-1 mx-2" value="">
+              <i class="fas fa-heart redheart"></i>
+            </div>
+              <a class="" href="#filter5" class="nav-link" data-toggle="collapse"><h5 class="text-center bg-info text-white mt-3 mb-2 py-1">Availability</h5></a>
+            <div class="collapse" id="filter5">
+              <input type="checkbox" name="price" class="my-1 mx-2" value="">In Stock <br>
+              <input type="checkbox" name="price" class="my-1 mx-2" value="">Out Of Stock <br>
+              <input type="checkbox" name="price" class="my-1 mx-2" value="">Order Require
+            </div>
+          </div>
+          <!--end filter smmd-->
+
+          <!--product-->
+          <div class="col-lg-9 mt-1 py-">
+            <p class="my-1"><span class="resultcolor">47</span> available results</p>
+            <p class="my-1">
+              <label>Sort by</label>
+              <select class="" name="">
+                <option>price goes up</option>
+                <option>price goes down</option>
+              </select>
+            </p>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img1 bg-warning">
+                    <div class="inside text-center effect1">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$1299.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 col-md-12 m-0 p-0">Madison Park Dune</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img2 bg-warning">
+                    <div class="inside text-center effect2">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$1199.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Porch & Den Manes</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img3 bg-warning">
+                    <div class="inside text-center effect3">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$1299.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Kotter Solid Wood</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img4 bg-warning">
+                    <div class="inside text-center effect4">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$1399.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Christopher Knight</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img5 bg-warning">
+                    <div class="inside text-center effect5">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$499.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Carson Carrington Bodo</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img6 bg-warning">
+                    <div class="inside text-center effect6">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$1099.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Gracewood Hollow</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img7 bg-warning">
+                    <div class="inside text-center effect7">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$799.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Porch & Den Angus</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img8 bg-warning">
+                    <div class="inside text-center effect8">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$1299.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Brookside Emmie</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img9 bg-warning">
+                    <div class="inside text-center effect9">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$1399.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Aurora Faux Leather</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img10 bg-warning">
+                    <div class="inside text-center effect10">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$1199.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Avenue Greene Dayton</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img11 bg-warning">
+                    <div class="inside text-center effect11">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$1299.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Carbon Loft Marquez</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img12 bg-warning">
+                    <div class="inside text-center effect12">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$1399.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Knightsbridge</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img13 bg-warning">
+                    <div class="inside text-center effect13">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$699.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Elizabeth Grey</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img14 bg-warning">
+                    <div class="inside text-center effect14">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$1299.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Scandinavia Queen-size</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2"><!--small product-->
+                  <div class="img15 bg-warning">
+                    <div class="inside text-center effect15">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$1099.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">Kendrah Adjustable</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+
+                <div class="col-lg-3 col-md-4 col-6 my-2 d-block d-sm-block d-md-none d-lg-block d-xl-block"><!--small product-->
+                  <div class="img16 bg-warning">
+                    <div class="inside text-center effect16">
+                      <button type="button" class="btn btn-danger btnalign" name="button"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                  </div>
+                  <div class="container aset">
+                    <div class="row">
+                      <h5 class="text-left p-0 m-0 col-lg-8 col-md-7 col-6">$899.99</h5>
+                      <a href="#" class="iconsi col-lg-4 col-md-5 text-right col-6"><i class="far fa-bookmark"></i></a>
+                      <div class="redheart iconsi2">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h6 class="col-lg-12 m-0 p-0">High Rustic Wood</h6>
+                      <button type="button" class="btn btn-danger btnalign my-2 col-md-12 d-block d-sm-block d-md-block d-lg-none d-xl-none" name="button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div><!--end small product-->
+              </div><!--end row-->
+              <p class="my-2 p-0">Page <span class="resultcolor">1</span>/24 <i class="fas fa-arrow-right"></i></p>
+            </div>
+          </div>
+          <!--endproduct-->
+        </div>
+      </div>
+    <!--end body-->
+
+    <!--footer-->
+
+    <!--end footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.img1').mouseenter(function(){
+          $('.effect1').slideDown('')
+        })
+        $('.img1').mouseleave(function(){
+          $('.effect1').slideUp('fast')
+        })
+
+        $('.img2').mouseenter(function(){
+          $('.effect2').slideDown('')
+        })
+        $('.img2').mouseleave(function(){
+          $('.effect2').slideUp('fast')
+        })
+
+        $('.img3').mouseenter(function(){
+          $('.effect3').slideDown('')
+        })
+        $('.img3').mouseleave(function(){
+          $('.effect3').slideUp('fast')
+        })
+
+        $('.img4').mouseenter(function(){
+          $('.effect4').slideDown('')
+        })
+        $('.img4').mouseleave(function(){
+          $('.effect4').slideUp('fast')
+        })
+
+        $('.img5').mouseenter(function(){
+          $('.effect5').slideDown('')
+        })
+        $('.img5').mouseleave(function(){
+          $('.effect5').slideUp('fast')
+        })
+
+        $('.img6').mouseenter(function(){
+          $('.effect6').slideDown('')
+        })
+        $('.img6').mouseleave(function(){
+          $('.effect6').slideUp('fast')
+        })
+
+        $('.img7').mouseenter(function(){
+          $('.effect7').slideDown('')
+        })
+        $('.img7').mouseleave(function(){
+          $('.effect7').slideUp('fast')
+        })
+
+        $('.img8').mouseenter(function(){
+          $('.effect8').slideDown('')
+        })
+        $('.img8').mouseleave(function(){
+          $('.effect8').slideUp('fast')
+        })
+
+        $('.img9').mouseenter(function(){
+          $('.effect9').slideDown('')
+        })
+        $('.img9').mouseleave(function(){
+          $('.effect9').slideUp('fast')
+        })
+
+        $('.img10').mouseenter(function(){
+          $('.effect10').slideDown('')
+        })
+        $('.img10').mouseleave(function(){
+          $('.effect10').slideUp('fast')
+        })
+
+        $('.img11').mouseenter(function(){
+          $('.effect11').slideDown('')
+        })
+        $('.img11').mouseleave(function(){
+          $('.effect11').slideUp('fast')
+        })
+
+        $('.img12').mouseenter(function(){
+          $('.effect12').slideDown('')
+        })
+        $('.img12').mouseleave(function(){
+          $('.effect12').slideUp('fast')
+        })
+
+        $('.img13').mouseenter(function(){
+          $('.effect13').slideDown('')
+        })
+        $('.img13').mouseleave(function(){
+          $('.effect13').slideUp('fast')
+        })
+
+        $('.img14').mouseenter(function(){
+          $('.effect14').slideDown('')
+        })
+        $('.img14').mouseleave(function(){
+          $('.effect14').slideUp('fast')
+        })
+
+        $('.img15').mouseenter(function(){
+          $('.effect15').slideDown('')
+        })
+        $('.img15').mouseleave(function(){
+          $('.effect15').slideUp('fast')
+        })
+
+        $('.img16').mouseenter(function(){
+          $('.effect16').slideDown('')
+        })
+        $('.img16').mouseleave(function(){
+          $('.effect16').slideUp('fast')
+        })
+      })
+    </script>
+  </body>
+</html>

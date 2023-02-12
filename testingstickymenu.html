@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/all.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="css/checkout.css" type="text/css">
+    <link rel="stylesheet" href="css/testingstickymenu.css" type="text/css">
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/all.js"></script>
+  </head>
+  <body>
+
+    <div class="fullsticky">
+      <div class="stickymenu d-none d-sm-none d-md-none d-lg-block d-xl-block">
+        <div class="p-1 texttt" data-target="#menu" data-toggle="collapse">
+          <i class="fas fa-ellipsis-h p-1 bg-info text-white"></i>
+        </div>
+        <div class="collapse rotate_  m-1" id="menu">
+          <a href="index.html"><i class="fas fa-home rotate_2  m-0 my-0 icon5 text-info"></i></a>
+          <a href="#" data-toggle="modal" data-target='#cart'><i class="fas fa-shopping-cart rotate_2   m-0 my-0 icon1"></i></a>
+          <a href="#" data-toggle="modal" data-target='#signin'><i class="fas fa-sign-in-alt rotate_2  icon2"></i></a>
+          <a href="#" data-toggle="modal" data-target='#signup'><i class="fas fa-user-plus rotate_2  icon3"></i></a>
+          <a href="#"><i class="far fa-question-circle rotate_2  icon4"></i></a>
+        </div>
+      </div>
+
+      <div class="stickymenu2 m-0 nav-item d-block d-sm-block d-md-block d-lg-none d-xl-none">
+        <a href="index.html" class="nav-link"><i class="fas fa-home   m-0 my-0 icon55 text-info"></i></a>
+        <a href="#" class="nav-link" data-toggle="modal" data-target='#cart'><i class="fas fa-shopping-cart    m-0 my-0 icon11"></i></a>
+        <a href="#" class="nav-link" data-toggle="modal" data-target='#signin'><i class="fas fa-sign-in-alt   icon22"></i></a>
+        <a href="#" class="nav-link" data-toggle="modal" data-target='#signup'><i class="fas fa-user-plus   icon33"></i></a>
+        <a href="#" class="nav-link"><i class="far fa-question-circle   icon44"></i></a>
+      </div>
+
+      <!--modal-->
+      <div class="modal fade" id="signin">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+
+            <div class="modal-header">
+              <h5 class="modal-title">Sign in</h5>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+
+            <form action="">
+
+              <button type="button" name="button" class="px-2 mx-auto btn btn-light btnw text-dark borderfb"><i class="fab fa-facebook-f text-primary"></i> Sign In Throught Facebook</button>
+              <button type="button" name="button" class="px-2 mx-auto btn btn-light btnw text-dark borderg"><i class="fab fa-google-plus-g text-danger"></i> Sign In Throught Google+</button>
+              <br><br>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="form-control" id="email" placeholder="Your Email">
+              </div>
+
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" class="form-control" id="password" placeholder="Your Password">
+              </div>
+
+              <div class="form-group form-check">
+                <label for="form-check-label"></label>
+                <input type="checkbox" name="remember" class="form-check-input">remember me
+              </div>
+              <br>
+              <div class="row ">
+
+                <button type="sumbit" class="mx-auto btn btn-success btnw">Sign In</button>
+                <button href="#signup" type="sumbit" class="mx-auto btn btn-danger btnw">Sign Up</button>
+              </div
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="cart">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Your Cart</h5>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+
+              <h5>Recently added:</h5>
+              <div class="container my-2 productborder p-2">
+                <div class="row">
+                  <div class="col-lg-3 col-md-3 col-3">
+                    <img src="pics/productsmall1.jpg" alt="">
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-7">
+                    <h6>Price: $1299.99</h6>
+                    <h6>Madison Park Dune Beige</h6>
+                    <input type="number" name="" value="" class="w-25" placeholder="1">
+                  </div>
+                  <div class="col-lg-1 col-md-1 col-2"><a href="#"><i class="far fa-window-close text-danger"></i></a></div>
+                </div>
+              </div>
+              <h5>Total Added</h5>
+              <div class="overf">
+                <div class="container my-2 productborder p-2">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-3 col-3">
+                      <img src="pics/productsmall1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-7">
+                      <h6>Price: $1299.99</h6>
+                      <h6>Madison Park Dune Beige</h6>
+                      <input type="number" name="" value="" class="w-25" placeholder="1">
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-2"><a href="#"><i class="far fa-window-close text-danger"></i></a></div>
+                  </div>
+                </div>
+
+                <div class="container my-2 productborder p-2">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-3 col-3">
+                      <img src="pics/productsmall1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-7">
+                      <h6>Price: $1299.99</h6>
+                      <h6>Madison Park Dune Beige</h6>
+                      <input type="number" name="" value="" class="w-25" placeholder="1">
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-2"><a href="#"><i class="far fa-window-close text-danger"></i></a></div>
+                  </div>
+                </div>
+
+                <div class="container my-2 productborder p-2">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-3 col-3">
+                      <img src="pics/productsmall1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-7">
+                      <h6>Price: $1299.99</h6>
+                      <h6>Madison Park Dune Beige</h6>
+                      <input type="number" name="" value="" class="w-25" placeholder="1">
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-2"><a href="#"><i class="far fa-window-close text-danger"></i></a></div>
+                  </div>
+                </div>
+
+                <div class="container my-2 productborder p-2">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-3 col-3">
+                      <img src="pics/productsmall1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-7">
+                      <h6>Price: $1299.99</h6>
+                      <h6>Madison Park Dune Beige</h6>
+                      <input type="number" name="" value="" class="w-25" placeholder="1">
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-2"><a href="#"><i class="far fa-window-close text-danger"></i></a></div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <button href="#signup" type="sumbit" class="mx-auto btn btn-danger btnw" onclick="window.location.href='checkout.html'">Check Out</button>
+                <h6 class="my-2 mx-auto">Subtotal: $5000</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="signup">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <div class="modal-header">
+              <h5 class="modal-title">Sign Up</h5>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+
+              <button type="submit" name="button" class="p-2 bg-white border border-primary text-primary"><i class="fab fa-facebook-square"></i> Log in throught Facebook</button>
+              <button type="submit" name="button" class="p-2 bg-white border border-danger text-danger"><i class="fab fa-google-plus-g"></i> Log in throught Google+</button>
+
+              <br><br>
+
+              <form action="">
+                <div class="form-group">
+                  <label for="name">Your full name</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                  <label for="email1">Your Email</label>
+                  <input type="email" name="email" class="form-control" id="email1" placeholder="Your email">
+                </div>
+
+                <div class="form-group">
+                  <label for="password1">Password</label>
+                  <input type="password" name="password" class="form-control" id="password1" placeholder="Password">
+                </div>
+
+                <div class="form-group">
+                  <label for="rpassword">Correct password</label>
+                  <input type="password" name="password" class="form-control" id="rpassword" placeholder="Correct your password">
+                </div>
+                <br>
+                <button type="submit"class="btn btn-success w-100">Sign Un</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.texttt').mouseenter(function(){
+          $('#menu').show('fast')
+        })
+
+        $('.stickymenu').mouseleave(function(){
+          $('#menu').hide('')
+        })
+      })
+    </script>
+
+  </body>
+</html>

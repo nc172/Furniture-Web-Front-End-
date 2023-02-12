@@ -1,0 +1,22 @@
+.yellow{
+  color: yellow;
+  background-color: yellow;
+
+}
+.navbar{
+  background-color: green;
+  height: 60px;
+  color: white;
+}
+span{
+  color: lightgreen;
+}
+.item{
+  background-color: lightgreen;
+  height: 200px;
+  margin: 10px 0px;
+}
+a:link , a:visited{
+  text-decoration: none;
+  color: black;
+}

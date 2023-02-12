@@ -1,0 +1,105 @@
+body{
+
+}
+.product{
+  height: 500px;
+}
+
+.float{
+  float:left;
+}
+.sizebtn{
+  border: 1px solid black;
+}
+
+.color{
+  color:#E04747;
+}
+.borderleft{border-left: 1px solid #5888A6;}
+a:visited{
+}
+.hovercursor{font-weight: bold}
+.hovercursor a:hover{
+  cursor: pointer;
+  background-color: rgba(88,136,166,0.4);
+}
+.text1, .text2, .text3{
+  display:none;
+  border: 1px solid black;
+}
+.mm{margin-top: -15px}
+.smallpic img{
+  filter: opacity(0.6);
+}
+.smallpic img:hover{
+  filter: none;
+  cursor: pointer;
+}
+.btncolor1{
+    background-color: #E04747;
+    margin-top:-7px;
+}
+.product1 button:hover{
+  background-color: rgba(224,71,71,0.7);
+}
+.btnalign{
+  font-size: 25px;
+}
+.aalign{
+  margin-left: 60%;
+  font-size: 25px;
+  color: #E04747;
+}
+
+.aalignsm{
+  margin-left: 50%;
+  font-size: 25px;
+  color: #E04747;
+}
+.h5color{color: #5888A6}
+.aalig a:hover{
+  color: rgba(240, 70, 70, 0.7);
+}
+.textl{
+  text-align: left;
+}
+.heart{
+  font-size: 10px;
+  padding: 0px;
+  margin-top: -3%;
+}
+.drop1{
+  height: ;width: ;
+  background-color: ;
+}
+.inside{
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;height: 100%;
+  padding: 40%;
+}
+.none1,.none2,.none3,.none4{display: none}
+.propic1{
+  background-image: url('../pics/relative1.png');
+  height: 280px;
+  width: 100%;
+  background-size: cover;
+
+}
+
+.propic2{
+  background-image: url('../pics/relative2.png');
+  height: 280px;
+
+}
+
+.propic3{
+  background-image: url('../pics/relative3.png');
+  height: 280px;
+
+}
+
+.propic4{
+  background-image: url('../pics/relative4.png');
+  height: 280px;
+
+}

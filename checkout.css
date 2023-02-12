@@ -1,0 +1,112 @@
+.topbox{
+  height: 35px;
+  border: 1px solid black;
+}
+
+/* body{background-image: url('../pics/checkout.jpg');}
+.text-a{
+  margin:
+} */
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+}
+.all1{height:700px;
+}
+.f{}
+.boxoverall{
+  border: 2px solid #5888A6;
+}
+.boxoverall2{
+  border: 2px solid #5888A6;
+}
+.scroll1{height: 430px; overflow-y: scroll;}
+.boxoverall2 h4{
+  color:  #5888A6;
+}
+.margauto{
+  margin: 0px 0px;
+}
+.productborder{border: 1px solid #5888A6 }
+.boxoverall h4{
+  border-bottom: 1px solid #5888A6;
+  padding-bottom: 1%;
+  color:  #5888A6;
+}
+.dpnone{display: none;}
+.dpnone2{display: none;}
+.propic1{
+  width: 80px;
+  height: 80px;
+  background-image: url('../pics/productsmall1.jpg');
+}
+.btnred{
+  background-color: #E04747;
+}
+.cor button:hover{
+  background-color:  rgba(224,71,71,0.7);
+}
+.firstcolor{
+  background-color: #5888A6;
+}
+.itemcolor{
+  background-color: rgba(224,71,71,0.4);
+}
+.btnbor{
+  border: 1px solid black;
+}
+.widsmall{
+  width: 60%;
+}
+.widsmaller{
+  width: 39%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+  .all1{
+    height: 1080px;
+  }
+}

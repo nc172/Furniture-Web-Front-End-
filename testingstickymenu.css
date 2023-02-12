@@ -1,0 +1,71 @@
+.stickymenu{
+  position: fixed;
+  top: 35%;
+
+}
+
+.stickymenu2{
+  position: fixed;
+  top: 35%;
+  transform: rotate();
+}
+.overf{overflow: scroll;height: 300px;}
+body{
+  background-image: none;
+}
+.stickymenu{transform: rotate();background-color: ;width:;height: 24%}
+.rotate{transform: rotate();background-color: lightgreen; padding:  ;margin: 5px;}
+.rotate_{transform: rotate(90deg);}
+.rotate_2{transform: rotate(-90deg); font-size: 40px;}
+.mtf{font-size: 30px;}
+.texttt{font-size: 40px;}
+
+
+.rotate_ a:link, .rotate_ a:visited{
+  text-decoration: none;
+  background-color:;
+}
+.btnw{width: 48%;}
+.borderfb{border:1px solid blue;}
+.borderg{border:1px solid red;}
+.icon1{
+  background-color:;
+  padding: 5px;
+  color: red;
+}
+.icon2{
+  padding: 5px;
+  color: lightgreen;
+}
+.icon3{
+  padding: 5px;
+  color: lightblue;
+}
+.icon4{
+  padding: ;
+  color: hotpink;
+}
+
+.icon55{font-size: 20px;}
+.icon11{
+  background-color:;
+  padding: ;
+  color: red;
+  font-size: 20px;
+}
+.icon22{
+  padding: ;
+  color: lightgreen;
+  font-size: 20px;
+}
+.icon33{
+  padding: ;
+  color: lightblue;
+  font-size: 20px;
+}
+.icon44{
+  padding: ;
+  color: hotpink;
+  font-size: 20px;
+}
+.icon1:hover , .icon5:hover ,.icon3:hover,.icon2:hover,.icon4:hover {background-color: rgba(0,0,0,.1)}
